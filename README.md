@@ -1,9 +1,9 @@
-# Ваш проект
+# postgredb
 
 Удобный класс для работы с базами данных на Postgresql.
 
 ## Установка
 
 ```bash
-pip install ваш_пакет
+pip install postgredb
 ```
