@@ -2,15 +2,13 @@ name: postgredb
 
 on:
   push:
-    branches:
-      - publish
+    branches: [ $default-branch ]
   pull_request:
-    branches:
-      - publish
+    branches: [ $default-branch ]
 
 jobs:
   build:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     steps:
     - name: Set up Python
